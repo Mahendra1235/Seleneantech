@@ -13,13 +13,19 @@ body {
 
 /* --- Navbar Container --- */
 .navbar {
+  background: linear-gradient(
+  to right,
+  rgba(10, 27, 44, 0.9),
+  rgba(17, 34, 68, 0.7),
+  rgba(9, 9, 9, 0.9)
+), url('../src/assets/Bg6.jpg');
   position: sticky;
   top: 0;
   z-index: 999;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(0, 0, 0, 0.95); 
+  /* background: rgba(0, 0, 0, 0.95);  */
   backdrop-filter: blur(6px);     
   color: #fff;
   padding: 1.5rem 2rem;
@@ -473,7 +479,13 @@ body {
 
 /*Footer page */
 .footer {
-  background: #6161c0;
+  /* background: #6161c0; */
+  background: linear-gradient(
+  to right,
+  rgba(10, 27, 44, 0.9),
+  rgba(17, 34, 68, 0.7),
+  rgba(35, 69, 103, 0.9)
+), url('../src/assets/Bg6.jpg');
   position: fixed;
   bottom: 0;
   width: 100%;

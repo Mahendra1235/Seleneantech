@@ -11,7 +11,6 @@ export default function About() {
         startups and enterprises alike to bring their silicon ideas to life — faster, smarter, and at scale.
       </p>
 
-      {/* Vision & Mission Grid */}
       <div className="vision-mission-grid">
         <div className="vision">
           <h3>Our Vision</h3>

@@ -18,13 +18,13 @@ export default function Ready2Chip() {
         <li>IP Validation Platform with proven test environments</li>
       </ul>
 
-      <h3>Key Benefits</h3>
+      {/* <h3>Key Benefits</h3>
       <ul className="solutions-list benefits">
         <li>Reduced development effort with pre-verified components</li>
         <li>Shorter time-to-market through reusable frameworks</li>
         <li>Enhanced verification coverage with proven VIPs</li>
         <li>Lower risk with silicon-proven platforms</li>
-      </ul>
+      </ul> */}
     </div>
   );
 }

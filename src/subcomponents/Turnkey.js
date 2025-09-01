@@ -20,13 +20,13 @@ export default function Turnkey() {
         <li>Advanced timing closure techniques</li>
       </ul>
 
-      <h3>Key Benefits</h3>
+      {/* <h3>Key Benefits</h3>
       <ul className="solutions-list benefits">
         <li>Accelerated design cycles with proven flows</li>
         <li>Reduced risk through silicon-proven methodologies</li>
         <li>Seamless integration with IPs and 3rd-party components</li>
         <li>Optimized PPA (Performance, Power, Area)</li>
-      </ul>
+      </ul> */}
     </div>
   );
 }

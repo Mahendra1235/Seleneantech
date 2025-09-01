@@ -19,13 +19,13 @@ export default function Parts() {
         <li>Reusable IP integration</li>
       </ul>
 
-      <h3>Key Benefits</h3>
+      {/* <h3>Key Benefits</h3>
       <ul className="solutions-list benefits">
         <li>Faster SoC assembly with pre-verified parts</li>
         <li>Improved quality through standardization</li>
         <li>Reduced verification and debug effort</li>
         <li>Scalable for multiple projects and products</li>
-      </ul>
+      </ul> */}
     </div>
   );
 }

@@ -18,13 +18,13 @@ export default function Partnership() {
         <li>FAB, Packaging & Testing partners for silicon manufacturing</li>
       </ul>
 
-      <h3>Key Benefits</h3>
+      {/* <h3>Key Benefits</h3>
       <ul className="solutions-list benefits">
         <li>Access to a strong ecosystem of technology leaders</li>
         <li>End-to-end solutions from design to silicon</li>
         <li>Shared expertise reduces risk and accelerates success</li>
         <li>Scalable partnerships for long-term growth</li>
-      </ul>
+      </ul> */}
     </div>
   );
 }

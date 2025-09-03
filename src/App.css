@@ -53,7 +53,7 @@ body {
 }
 
 .logo-image {
-  width: 42px;
+  width: 130px;
   height: auto;
   margin-right: 10px;
   border-radius: 6px;
@@ -298,7 +298,7 @@ body {
 .about-container {
   max-width: 1800px;
   margin: auto;
-  padding: 2rem;
+  padding: 1.5rem;
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
 }
@@ -345,36 +345,68 @@ body {
 /* Contact Component Styles */
 
 .contact-container {
-  height: 78vh;
-  max-width: 1900px;
-  margin: 0 auto;
-  background-color: #f4f6f8;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  max-height:max-content;
+  max-width: 1400px;
+  margin: 2rem auto;
+  background-color: #ffffff;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  padding-bottom: 170px;
+}
+
+.contact-container:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
 }
 
 .contact-container h2 {
   color: #1e1e2f;
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #003366;
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
 }
 
 .contact-container p {
-  font-size: 1.1rem;
-  margin-bottom: 0.75rem;
-  color: #333;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.contact-container strong {
+  color: #222;
 }
 
 .contact-container a {
   color: #007bff;
   text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
 }
 
 .contact-container a:hover {
+  color: #0056b3;
   text-decoration: underline;
 }
 
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .contact-container {
+    padding: 2rem;
+  }
+
+  .contact-container h2 {
+    font-size: 2rem;
+  }
+
+  .contact-container p {
+    font-size: 1rem;
+  }
+}
 /* Solutions Pages */
 .solutions-container {
   height: fit-content;

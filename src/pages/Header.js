@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.jpg";
+import logo from "../assets/Logo.jpeg";
 import "../App.css";
 
 function Header() {
@@ -19,7 +19,6 @@ function Header() {
       <div className="nav-header">
         <Link to="/" className="logo-link" onClick={closeMenu}>
           <img src={logo} alt="Company Logo" className="logo-image" />
-          Selenean
         </Link>
 
         <div

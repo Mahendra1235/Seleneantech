@@ -12,10 +12,8 @@ export default function Partnership() {
 
       <h3>Our Partners</h3>
       <ul className="solutions-list">
-        <li>Design houses for architecture and RTL expertise</li>
-        <li>Product companies for co-development and innovation</li>
-        <li>IP developers for reusable and scalable design assets</li>
-        <li>FAB, Packaging & Testing partners for silicon manufacturing</li>
+        <li>iVP Semi</li>
+        <li>InCoreSemi</li>
       </ul>
 
       {/* <h3>Key Benefits</h3>

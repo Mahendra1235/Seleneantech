@@ -28,7 +28,7 @@ body {
   /* background: rgba(0, 0, 0, 0.95);  */
   backdrop-filter: blur(6px);     
   color: #fff;
-  padding: 1.5rem 2rem;
+  padding: 0.5rem 2rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -409,9 +409,9 @@ body {
 }
 /* Solutions Pages */
 .solutions-container {
-  height: fit-content;
+  height: auto;
   max-width: 1900px;
-  margin: 0 auto 30px;
+  /* margin-top: 10px; */
   padding: 2rem;
   background: #ffffff;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
